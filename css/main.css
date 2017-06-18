@@ -264,6 +264,17 @@ input,textarea{
   color:#90949f;
   font-weight:normal;
 }
+#main .well a{
+  padding:5px;
+  font-weight:bold;
+  color: white;
+  font-size:15px;
+}
+#main .well{
+  padding:10px;
+  background-color: #365899;
+  width: 100%;
+}
 
 
 /* Sidebar**************************************/
