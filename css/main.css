@@ -230,12 +230,20 @@ button#submit.btn.btn-default:hover{
   border-radius:16px;
   background-color:#f6f7f9;
 }
+#main_1 button:hover{
+  background-color: #c8cbd1;
+}
 #main_1 .panel-footer{
   background-color: #f6f7f9;
   border:0;
   border-bottom: 1px solid #ddd;
   padding:8px 5px 8px 10px;
   font-size:13px;
+}
+#main_1 .panel-footer a{
+  text-decoration: none;
+  color:#365899;
+  cursor:pointer;
 }
 .panel-body .glyphicon {
     margin-left: 10px;
@@ -319,7 +327,7 @@ input,textarea{
     margin-bottom: 12px;
 }
 #sidebar{
-  position:fixed;
+  /*position:fixed;*/
   max-width:308px;
 }
 #birthday{
@@ -418,7 +426,7 @@ input,textarea{
   padding-top: 2px;
   margin-bottom: 0px;
 }
-#requests h5{
+#requests h5, #ads h5{
   float:left;
   font-weight: bold;
   color: #90949f;
@@ -426,7 +434,7 @@ input,textarea{
 #requests span h5{
 
 }
-#requests  .pull-right {
+#requests  .pull-right,#ads .pull-right {
   padding:8px 16px 0px 0px;
   font-weight: normal;
   font-size: 13px;
@@ -445,7 +453,35 @@ input,textarea{
   font-size: 14px;
   color:black;
 }
-
+#ads{
+  background-color: white;
+  padding:4px 0 12px 13px;
+  border-radius:4px;
+  border:1px solid #ddd;
+  border-bottom: 1.4px solid #d0d1d5;
+  box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+#ads #carousel-example-generic{
+  padding:0px;
+  margin-top:35px;
+  margin-right:13px;
+  cursor:pointer;
+}
+#ads #carousel-example-generic .carousel-inner .item #caption{
+    margin-top:5px;
+    font-weight:normal;
+    color:#90949f;
+}
+#ads #carousel-example-generic .carousel-inner .item #caption a{
+  text-decoration: none;
+  color:#365899;
+}
+#ads #carousel-example-generic .carousel-control{
+  text-shadow: 0;
+  background: transparent;
+  height:120px;
+  width:15px;
+}
 /************Footer*/
 
 footer .nav.nav-pills li a,footer>span{
