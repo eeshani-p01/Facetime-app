@@ -11,6 +11,34 @@ body{
 .col-xs-10, .col-sm-7, .col-md-5{
   padding:0px;
 }
+
+@media (max-width:768px) {
+
+  .container #main #main_1 .view1{
+      display:none;
+  }
+}
+@media (max-width:992px){
+  .container #wrapper .row .hidden-xs.col-sm-3.col-md-2 #menu{
+    width:300px;
+}
+.container nav .container-fluid .navbar-header #logo {
+    margin-left:30px;
+  }
+}
+@media (max-width:1070px){
+  .container nav .container-fluid #header1 #searchbar{
+    display:none;
+
+}
+}
+@media (max-width:1250px){
+  .container #wrapper .row .hidden-xs.col-sm-3.col-md-2 #menu{
+  padding-right: 90px;
+}
+}
+
+
 /*
 .container {
   padding-right: 15px;
